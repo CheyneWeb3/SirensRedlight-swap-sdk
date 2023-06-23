@@ -64,14 +64,6 @@ export const WETH = {
     'WREDLC',
     'Wrapped RedLight'
   ),
-  export const USDT = {
-    [ChainId.MAINNET]: new Token(
-      ChainId.MAINNET,
-      '0x73E84bFD35C3f1537A72180D1481E1eABf64B70b',
-      18,
-      'USDT-R',
-      'USDT RedLight'
-    ),
   [ChainId.BSCTESTNET]: new Token(
     ChainId.BSCTESTNET,
     '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
